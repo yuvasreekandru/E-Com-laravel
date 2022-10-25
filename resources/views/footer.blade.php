@@ -1,4 +1,5 @@
-<div class="card">
+<!-- <section> -->
+<div style="clear:both" class="card">
   <div class="card-header">
     Featured
   </div>
@@ -8,3 +9,4 @@
     <a href="#" class="btn btn-primary">Go somewhere</a>
   </div>
 </div>
+<!-- </section> -->
