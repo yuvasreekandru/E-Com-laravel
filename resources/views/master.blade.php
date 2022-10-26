@@ -29,7 +29,6 @@
     background: #444141;
   }
   .custom-product{
-    /* background:#55555552 !important; */
     height: 400px !important;
   }
  .trending-wrapper{
@@ -39,10 +38,20 @@
   .trending-img{
     height: 100px;
   }
-  .trending-item{
+  .trending-item
+  {
     float:left;
     width: 20%;
   }
+  .detail-img{
+    height: 200px;
+
+  }
+  .search-box{
+    width: 500px !important;
+  }
+
+
 </style>
 <script>
     // $(document).ready(function(){
