@@ -50,7 +50,11 @@
   .search-box{
     width: 500px !important;
   }
-
+.cart-divider{
+  border-bottom: 1px solid #ccc;
+  margin-bottom:20px;
+  padding-bottom:20px;
+}
 
 </style>
 <script>

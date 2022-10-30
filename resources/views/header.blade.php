@@ -17,7 +17,7 @@ if(Session::has('user')){
         <a class="nav-link" href="#">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Orders</a>
+        <a class="nav-link" href="myorders">Orders</a>
       </li>
       
       <li class="nav-item">
@@ -33,7 +33,7 @@ if(Session::has('user')){
     </ul>
       <ul class="navbar-nav ml-auto">
         <li class="nav-item ">
-          <a class="nav-link">Cart({{$total}})</a>
+          <a href="cartlist" class="nav-link">Cart({{$total}})</a>
         </li>
         @if(Session::has('user'))
         <li class="nav-item dropdown">
@@ -47,6 +47,9 @@ if(Session::has('user')){
         @else
         <li class="nav-item ">
           <a href="/login" class="nav-link">Login</a>
+        </li>
+        <li class="nav-item ">
+          <a href="/register" class="nav-link">Register</a>
         </li>
         @endif
       </ul>
